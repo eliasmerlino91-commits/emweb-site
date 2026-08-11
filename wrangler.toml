@@ -1,0 +1,7 @@
+name = "emweb-site"
+compatibility_date = "2025-01-01"
+
+# Sitio estático: Cloudflare sirve los archivos de la carpeta ./public
+# (index.html, etc.). No hay código de Worker; es solo hosting estático.
+[assets]
+directory = "./public"
